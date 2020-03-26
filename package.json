@@ -1,0 +1,42 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "Bookmark",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "mac": "electron-builder -m",
+    "win": "electron-builder -w",
+    "linux": "electron-builder -l",
+    "build": "electron-builder -mwl"
+  },
+  "build": {
+    "appId": "com.tuananhzippy.bookmark",
+    "directories": {
+      "app": "./",
+      "output": "./dist",
+      "buildResources": "./build"
+    },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": "dmg"
+    },
+    "win": {},
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "keywords": [
+    "bookmark",
+    "tuan anh",
+    "zippy"
+  ],
+  "author": "Tuấn Anh Zippy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-builder": "^22.4.1"
+  },
+  "dependencies": {}
+}
