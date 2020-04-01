@@ -1,11 +1,11 @@
 const { autoUpdater } = require('electron-updater');
 
-//Enable logging
+//Enable logging updater
 const log = require("electron-log");
 log.transports.file.level = "info";
 autoUpdater.logger = log;
 
-//Check for updates
+//Check for updates aaaa
 exports.check = () => {
     autoUpdater.checkForUpdatesAndNotify();
 
