@@ -33,4 +33,6 @@ exports.check = () => {
         log.info("Update downloaded, will install now");
         autoUpdater.quitAndInstall();
     });
+	
+	//Done
 }
