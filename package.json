@@ -46,7 +46,7 @@
   "author": "Tuấn Anh Zippy",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^7.1.11",
+    "electron": "^13.6.6",
     "electron-builder": "^22.4.1"
   },
   "dependencies": {
